@@ -15,3 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('www.amazon.com')
 println('browser opened')
+
+WebUI.click( findTestObject('Object Repository/Todays deals'))
+
+println(WebUI.getText( findTestObject('Object Repository/any checkbox')))
